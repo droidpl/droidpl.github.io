@@ -1,0 +1,441 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>droidpl</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="https://avatars2.githubusercontent.com/u/2143931?v=4" type="image/png"></head>
+
+  <body>
+    <div id="loading">
+      <div id="spinner"></div>
+    </div>
+    <div id="profile">
+      <div id="profile_img" style="background: url(https://avatars2.githubusercontent.com/u/2143931?v=4) center;"></div>
+      <div id="username"><span style="display:block;">Javier de Pedro López</span><a href="https://github.com/droidpl">@droidpl</a></div>
+      <div id="userbio" style="display: block;">Solution Architect @github</div>
+      <div id="about">
+                <span style="display:block;"><i class="fas fa-users"></i> &nbsp; @github</span>
+                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://droidpl.me">https://droidpl.me</a></span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; León</span>
+                <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
+                <div class="socials">
+                <span style="display:block;"><a href="https://www.twitter.com/droidpl" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.dribbble.com/undefined" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
+                <span style="display:block;"><a href="https://www.linkedin.com/in/javierdepedrolopez/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+                <span style="display:block;"><a href="https://www.medium.com/@droidpl/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
+                </div>
+                </div>
+    </div>
+    <div id="display">
+      <div id="work">
+        <h1>Work.</h1>
+        <div class="projects" id="work_section">
+                        <a href="https://github.com/droidpl/droidcon-offline-architecture" target="_blank">
+                        <section>
+                            <div class="section_title">droidcon-offline-architecture</div>
+                            <div class="about_section">
+                            <span style="display:block;">How to fail going offline: Architecture proposal with Loaders and Job schedulers</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 23</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/android-json-viewer" target="_blank">
+                        <section>
+                            <div class="section_title">android-json-viewer</div>
+                            <div class="about_section">
+                            <span style="display:block;">Activity that allows you to navigate in your app through a JSONObject or JSONArray item</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 7</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/GrillPlugin" target="_blank">
+                        <section>
+                            <div class="section_title">GrillPlugin</div>
+                            <div class="about_section">
+                            <span style="display:block;">Android Gradle plugin for: Documentation, Code quality, Test coverage and Library distribution</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Groovy</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 7</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 5</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/android-layout-folding" target="_blank">
+                        <section>
+                            <div class="section_title">android-layout-folding</div>
+                            <div class="about_section">
+                            <span style="display:block;">Gradle plugin to enable multiple resource folders in the layout of the variants.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Groovy</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 5</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/perceptronJS" target="_blank">
+                        <section>
+                            <div class="section_title">perceptronJS</div>
+                            <div class="about_section">
+                            <span style="display:block;">Perceptron written in javascript</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/mobgen/halo-documentation" target="_blank">
+                        <section>
+                            <div class="section_title">halo-documentation</div>
+                            <div class="about_section">
+                            <span style="display:block;">Documentation for the HALO project</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 3</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/mobgen/halo-ios" target="_blank">
+                        <section>
+                            <div class="section_title">halo-ios</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Swift</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/ADGevents/coruna" target="_blank">
+                        <section>
+                            <div class="section_title">coruna</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/ADS-Talk" target="_blank">
+                        <section>
+                            <div class="section_title">ADS-Talk</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/android-sockets-demo" target="_blank">
+                        <section>
+                            <div class="section_title">android-sockets-demo</div>
+                            <div class="about_section">
+                            <span style="display:block;">Android Sockets demo app</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/CubiGA" target="_blank">
+                        <section>
+                            <div class="section_title">CubiGA</div>
+                            <div class="about_section">
+                            <span style="display:block;">Java genetic algorithm library</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 3</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/droidpl.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">droidpl.github.io</div>
+                            <div class="about_section">
+                            <span style="display:block;">Personal site at https://droidpl.me</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/flutter_of_thrones" target="_blank">
+                        <section>
+                            <div class="section_title">flutter_of_thrones</div>
+                            <div class="about_section">
+                            <span style="display:block;">University workshop for Flutter</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Dart</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/ghec-audit-log-cli" target="_blank">
+                        <section>
+                            <div class="section_title">ghec-audit-log-cli</div>
+                            <div class="about_section">
+                            <span style="display:block;">Query the GitHub Audit Log for your organization to send it over to other services like elastic, splunk or sentinel for visualization and security</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/github-protector" target="_blank">
+                        <section>
+                            <div class="section_title">github-protector</div>
+                            <div class="about_section">
+                            <span style="display:block;">Interview test to protect the github repository when created on an organization</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/HCore" target="_blank">
+                        <section>
+                            <div class="section_title">HCore</div>
+                            <div class="about_section">
+                            <span style="display:block;">A haptic simulator for Ogre and haptic devices</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C++</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/hello-github-actions" target="_blank">
+                        <section>
+                            <div class="section_title">hello-github-actions</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Dockerfile</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/machine-learning-course" target="_blank">
+                        <section>
+                            <div class="section_title">machine-learning-course</div>
+                            <div class="about_section">
+                            <span style="display:block;">Contains the coursera machine learning exercises</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Matlab</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/miniplate-android" target="_blank">
+                        <section>
+                            <div class="section_title">miniplate-android</div>
+                            <div class="about_section">
+                            <span style="display:block;">Android bootstrap that contains the minimal configuration for Android projects</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Kotlin</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/miniplate-docker-mongo-node-backend" target="_blank">
+                        <section>
+                            <div class="section_title">miniplate-docker-mongo-node-backend</div>
+                            <div class="about_section">
+                            <span style="display:block;">Minimal backend bootstraping with nodejs and mongodb. Includes migrations</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/miniplate-react-redux" target="_blank">
+                        <section>
+                            <div class="section_title">miniplate-react-redux</div>
+                            <div class="about_section">
+                            <span style="display:block;">Minimal todo list for react with redux one page application</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/droidpl/WeWantCoffee" target="_blank">
+                        <section>
+                            <div class="section_title">WeWantCoffee</div>
+                            <div class="about_section">
+                            <span style="display:block;">Code kitchen 2015 #BABBQ</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/mobgen/halo-analytics-ios" target="_blank">
+                        <section>
+                            <div class="section_title">halo-analytics-ios</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Objective-C</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/mobgen/halo-notifications-ios" target="_blank">
+                        <section>
+                            <div class="section_title">halo-notifications-ios</div>
+                            <div class="about_section">
+                            <span style="display:block;">Halo iOS SDK library for Push notifications support</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Swift</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 4</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/mobgen/halo-social-ios" target="_blank">
+                        <section>
+                            <div class="section_title">halo-social-ios</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Objective-C</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a></div>
+      </div>
+      <div id="forks" style="display:none;">
+        <h1>Forks.</h1>
+        <div class="projects" id="forks_section"></div>
+      </div>
+      <div id="blog_section">
+        <h1>Blog.</h1>
+        <div id="blogs"></div>
+      </div>
+      <div id="footer">
+        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("blog.json", function(blog) {
+        blog = blog || [];
+        if (blog.length == 0) {
+          return (document.getElementById("blog_section").style.display =
+            "none");
+        }
+        for (var i = 0; i < blog.length; i++) {
+          $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+        }
+      }).fail(function() {
+        return (document.getElementById("blog_section").style.display = "none");
+      });
+    </script>
+
+    <script>
+      const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+      });
+    </script>
+  
+
+</body></html>
