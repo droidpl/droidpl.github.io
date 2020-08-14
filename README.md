@@ -13,12 +13,12 @@ Prepare the dependencies running:
 
 Build it using this command:
 ```
-./bin/build
+./bin/serve
 ```
 
 If you want to serve it use:
 ```bash
-./bin/dist
+./bin/build
 ```
 
 It will serve the site on ``localhost:5000``.
